@@ -1,9 +1,10 @@
 # AbletonLiveMIDINoteProcessors
 MIDI note processors for Ableton Live using only lite and standard devices
 
-Ableton Live (lite and standard) has devices for MIDI note processing with simple pitch transposition, arpeggiation, etc all possible easily. More complex processing (such as proability to play/drop or stutter/echo notes) is very useful when working with drum patterns. 
+Ableton Live (lite and standard) has devices that "do one thing well" and "work together" for realtime MIDI note processing. Pitch and velocity modulation/randomisation are possible easily. More complex realtime processes (proability to play/drop or stutter/echo notes, etc) are very useful when working with drum patterns and/or with external hardware.
 
-A series of device group racks using only lite/standard edition devices are provided here.
+The device group racks here do exactly that and use only lite/standard edition devices. No Max4Live M4L amxd etc required.
+
 Two ".adg" formats are provided (v7 binary, and v9 gzip xml).
 If you fork these, please be sure to maintain compatibile file formats! 😅
 
@@ -30,11 +31,11 @@ If you fork these, please be sure to maintain compatibile file formats! 😅
 - This is useful to add "ghost" or "flam" or "roll" notes to sequences.
 - E.G. Insert this with and after "MIDI Drop Note" to inject rolls and flams for one note.
 - E.G. Insert this in a "Drum Rack" slot to give subtle variation for that note slot.
-- You may want "MIDI Stutter Note Layer" or "MIDI Stutter GM Drums" instead.
+- You may want "MIDI Stutter Note" or "MIDI Stutter GM Drums" instead.
 
-## MIDI Stutter Note Layer
-![MIDI Stutter Note Layer](Screenshots/MidiStutterNoteLayer.png)
-- Injecs echo (stutter) for a specific note trigger with precise probability and timing.
+## MIDI Stutter Note
+![MIDI Stutter Note](Screenshots/MidiStutterNote.png)
+- Injects echo (stutter) for a specific note trigger with precise probability and timing.
 - This rolls a dice to stutter a specific trigger note.
 - This is useful to add "ghost" or "flam" or "roll" notes to specific trigger notes.
 - E.G. Insert this on a drum pattern track to inject variation for one specific sound.
@@ -45,6 +46,6 @@ If you fork these, please be sure to maintain compatibile file formats! 😅
 ## MIDI Stutter GM Drums
 ![MIDI Stutter GM Drums](Screenshots/MIDIStutterGMDrums.png)
 - Injects echo (stutter) for some GM drum note #s with adjustable probability and timing.
-- This is a pre-built setup with "MIDI Drop Note" and several "MIDI Stutter Note Layer"s.
+- This is a pre-built setup with "MIDI Drop Note" and several "MIDI Stutter Note"s.
 - E.G. Insert this on a drum pattern track to give subtle variation for the whole pattern.
 - Please edit the trigger note #s and probabilities to suit your pattern.
